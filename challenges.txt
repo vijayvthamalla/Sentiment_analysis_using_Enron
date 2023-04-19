@@ -1,0 +1,22 @@
+Challenges:
+
+1. Navigating through the directories to find filenames and writing an optimal function to do so.
+Resolved by using recursion and adding the filenames along with absolute path to a list
+
+2. Too much time to append the data to dataframe and dataframe append deprecation warning.
+Resolved by appending the dataframes to a list and concatenating at the end
+
+3. Python couldn't read the data from the file due to encoding issues
+Resolved by adding encoding 'utf-8' while opening the file
+
+4. Exploring the data using regular expressions
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Errors : 
+
+1. corpora/wordnet not found
+
+Resolution:
+!unzip /usr/share/nltk_data/corpora/wordnet.zip -d /usr/share/nltk_data/corpora/
+
+2. 
