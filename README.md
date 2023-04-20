@@ -4,17 +4,20 @@ The Enron email dataset from 2015 is a rich source of data for various data scie
 Here are some of the insights I gained through visualizations after analysis, we can acheive more insights as per the requirement
 situation
 
-How Textblob performed:
+How Textblob performed: If we see the following pie chart, it shows a good amount of positive content but still there is a lot of negative and neutral content so we can try to maximize the positive attitude of the employees using different strategies as per organizations standards and policies.
 ![Textblob Analysis](textblob_analysis.png)
 
-How Vader performed:
+How Vader performed: Vader shows there is a lot of positivity among the employees than the Textblob and this could be because Vader uses vader lexicon and is optimized mainly for social media, Since Emails are not a proper feedback from the employees they are close to how people interact in a social media with professionalism. So Vader could perform a little better in this scenario.
 ![Vader Analysis](vader_analysis.png)
 
-How the sentiment varied on a day to day basis in a week:
+Does the day of the work affect how an employee works? To analyze it following is the sentiment over the week but there is not much difference.
 ![Day to day analysis](day_basis_analysis.png)
 
-How the sentiment varied over the years:
+How does the sentiment of the employees varied over the years as the organization expands or progresses
 ![Yearly analysis](year_basis_analysis.png)
+
+I have analyzed the sentiment of the email and gained insights using visualizations. This still can be continued with advanced
+analysis as defined below.
 
 Here's an outline of the steps one could follow:
 
@@ -44,9 +47,6 @@ patterns in the Enron emails.
 
 Following is the sample data I had after performing the analysis:
 ![Sample data](sample_data_after_analysis.png)
-
-I have analyzed the sentiment of the email and gained insights using visualizations. This still can be continued with advanced
-analysis as defined below.
 ****************************************************************************************************************************
 Advanced Analysis
 
